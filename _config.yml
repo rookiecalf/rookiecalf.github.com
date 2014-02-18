@@ -14,8 +14,8 @@ author :
   name : rookiecalf
   email : rookiecalf@gmail.com
   github : rookiecalf
-  twitter : rookiecalf
-  feedburner : rookiecalf
+  #twitter : rookiecalf
+  #feedburner : rookiecalf
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

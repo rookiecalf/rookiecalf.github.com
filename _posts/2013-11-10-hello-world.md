@@ -5,4 +5,7 @@ description: "测试中文提交"
 category: ""
 tags: []
 ---
+
+测试中文显示
+
 {% include JB/setup %}

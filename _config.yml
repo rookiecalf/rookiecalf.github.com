@@ -5,6 +5,9 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
+#每一页显示的文章数
+paginate: 5
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -97,9 +100,6 @@ JB :
     provider : duoshuo
     duoshuo : 
       short_name : githubblog
-
-  # 每一页显示的文章数
-   paginate: 5
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

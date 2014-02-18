@@ -98,6 +98,9 @@ JB :
     duoshuo : 
       short_name : githubblog
 
+  # 每一页显示的文章数
+   paginate: 5
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.

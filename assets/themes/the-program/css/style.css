@@ -426,6 +426,12 @@ h1,
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
+
+  /*设定标题背景颜色，下划线，以方便分页阅读*/
+  background-color: #ddd; 
+  border-bottom: 5px solid rgba(21, 25, 25, 0.8);
+  margin-bottom: 21px;
+  /*设定标题背景颜色，下划线，以方便分页阅读*/
 }
 h2,
 .h2 {
@@ -609,8 +615,11 @@ pre {
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
+  /*所有h1都使用header样式，此处进行注释*/
+  /*
   border-bottom: 5px solid rgba(21, 25, 25, 0.8);
   margin-bottom: 21px;
+  */
 }
 .unit-article header h1 {
   color: #2d2d2d;

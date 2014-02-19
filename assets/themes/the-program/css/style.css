@@ -944,6 +944,20 @@ pre {
 .the-footer h4 {
   margin-top: 0;
 }
+
+/*rookiecalf-bottom*/
+.rookiecalf-bottom a:link {
+  color: #c26164;
+  border: 0;
+}
+.rookiecalf-bottom a:visited {
+  color: #ad4346;
+  border: 0;
+}
+.rookiecalf-bottom a:hover {
+  color: #d08688;
+  border: 0;
+}
 /*
  	IE
 */
@@ -1015,6 +1029,9 @@ pre {
     float: left;
     width: 100%;
     margin-right: -450px;
+
+    margin-bottom: 52px;
+    padding-left: 52px;
   }
   .body .unit-body {
     border-top: 0 none;
@@ -1029,7 +1046,17 @@ pre {
     display: block;
     float: left;
     padding: 0 0 0 26px;
-    width: 420px;
+    width: 370px;
+  }
+
+  .rookiecalf-bottom {
+    background-color: transparent;
+    color: #2d2d2d;
+    position: relative;
+    top: auto;
+    display: block;
+    float: left;
+    width: 100%;
   }
 }
 /*
@@ -1078,6 +1105,9 @@ pre {
     float: left;
     width: 81%;
     margin-right: -450px;
+
+    margin-bottom: 52px;
+    padding-left: 52px;
   }
   .body .unit-body {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
@@ -1094,13 +1124,22 @@ pre {
     display: block;
     float: left;
     padding: 26px 0 0 26px;
-    width: 420px;
+    width: 370px;
   }
   .the-footer h4 {
     font-size: 30px;
     line-height: 52px;
     margin-top: 0;
     margin-bottom: 26px;
+  }
+
+  .rookiecalf-bottom {
+    color: #2d2d2d;
+    position: relative;
+    top: auto;
+    display: block;
+    float: left;
+    width: 100%;
   }
 }
 pre .c {

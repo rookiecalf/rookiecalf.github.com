@@ -2,7 +2,7 @@
 layout: post
 title: "mediawiki中的infobox安装"
 description: "mediawiki中信息框安装简介"
-category: "大数据"
+category: "big data"
 tags: [mediawiki,infobox]
 ---
 {% include JB/setup %}

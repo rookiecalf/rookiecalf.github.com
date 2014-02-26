@@ -1,6 +1,6 @@
 ---
 layout: post
-category : 大数据
+category : big data
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---

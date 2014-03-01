@@ -11,7 +11,7 @@ tags: [unit,test,CppUTest,windows]
 
 CppUTest是为了支持在多种操作系统上开发嵌入式软件而特别设计的。CppUTest的宏被设计成不需要了解C++也可以写测试用例，这使得像我这样进行嵌入式C语言开发的程序员来说简直就是一大福音。
 
-下载CppUTest请到[官网](http://cpputest.github.io/ "CppUTest官网")，这里使用版本3.3，最新3.5版本按照说明未能配置成功。
+下载CppUTest请到[官网](http://cpputest.github.io/ "CppUTest官网")，这里使用版本3.3，最新3.5版本按照说明未能配置成功（后来发现是configure时运行方式不正确，应该使用./configure,现在3.5版本已经可以正常运行了）。
 
 <!--break-->
 

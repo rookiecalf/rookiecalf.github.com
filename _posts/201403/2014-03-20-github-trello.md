@@ -26,7 +26,7 @@ Trello 上的工作都围绕“木板（board）”进行，同一小组的用�
 3、设置时，还需要push list Id和Pull Request Id，这两个Id的目的是将github中的提交日志发布到指定的List中。你可以在以下链接得到list Id：
 
     https://api.trello.com/1/board/BOARDID?token=TOKEN&key=db1e35883bfe8f8da1725a0d7d032a9c&lists=all
-上面的TOKEN使用第二步获取的token替换，而BOARDID则是你想要将日志提交到的那一个board的Id，通常是board的url中board名的前一个部分。在这个url下，你可以看到公告板中所有列表的代号，选择你先要将信息提交到的那个列表。
+上面的TOKEN使用第二步获取的token替换，而BOARDID则是你想要将日志提交到的那一个board的Id，通常是board的url中board名的前一个部分（就是在board名前面看起来比较乱的那一组字母）。在这个url下，你可以看到公告板中所有列表的代号，选择你先要将信息提交到的那个列表。
 
 这样使能hooks设置，就可以使用test hook来测试你的配置是否成功了。
 

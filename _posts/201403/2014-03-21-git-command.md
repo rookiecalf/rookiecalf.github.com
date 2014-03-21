@@ -25,6 +25,8 @@ git config --global color.interactive auto
 
 git clone git+ssh://git@192.168.53.168/VT.git # clone远程仓库
 
+<!--break-->
+
 git status# 查看当前版本状态（是否修改）
 
 git add xyz   # 添加xyz文件至index
@@ -178,4 +180,4 @@ git gc
 git fsck
 
 
-<!--break-->
+

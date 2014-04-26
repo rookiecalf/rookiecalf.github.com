@@ -8,6 +8,7 @@ tags: [travis-CI,github,travis,持续集成]
 {% include JB/setup %}
 
 对于团队开发来说，持续集成（CI）无疑是非常重要的一个环节。持续集成确保开发人员向代码库提交新的代码时，都能够触发构建活动，构建活动可能包括单元测试，功能测试，复杂一些的集成过程则要包括更多的构建及测试。使用持续集成可以快速检测错误，保证项目健康稳定发展。
+file:///home/lcj/program/gitroot/rookiecalf.github.com/_posts/201403/2014-03-01-Cpputest-windows.md
 
 我们在实际项目中可能使用类似Jenkins（前身为hudson）等持续集成软件，而托管在github中的小型项目则有更好的选择，那就是travis CI。当然travis CI也不会只限于小项目。
 
@@ -27,6 +28,7 @@ travis CI是专门为开源项目打造的持续集成环境，对于托管在gi
 
 4、在你项目的根目录建立一个.travis.yml文件，此文件用于持续集成：
 
+    ```ini
     ---
     language: cpp
     compiler: 
@@ -34,6 +36,7 @@ travis CI是专门为开源项目打造的持续集成环境，对于托管在gi
     
     # Change this to your needs
     script:  cd cpputest && make && cd .. && make
+    ```
 
 文件中设定项目的语言，以及编译器，示例为C++项目，使用gcc进行编译。script部分则是寻找到你管理工程所用makefile目录并进行make，travis CI将会为你进行项目构建。更复杂的.travis.yml文件设置方法，请参照[官方文档](http://http://docs.travis-ci.com/user/getting-started/)。
 

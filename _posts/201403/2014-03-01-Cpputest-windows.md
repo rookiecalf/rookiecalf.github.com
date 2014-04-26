@@ -25,6 +25,7 @@ CppUTest是为了支持在多种操作系统上开发嵌入式软件而特别设
 
 编写第一个测试，你只需要新建一个包含测试组和一个测试的c++文件，如下所示：
 
+    ```c++
     TEST_GROUP(FirstTestGroup)
     {
     };
@@ -33,22 +34,29 @@ CppUTest是为了支持在多种操作系统上开发嵌入式软件而特别设
     {
        FAIL("Fail me!");
     }
+    ```
+    
 这个测试将会向你报告失败。
 
 在这个测试组中你可以添加更多测试：
 
+    ```c++
     TEST(FirstTestGroup, SecondTest)
     {
        STRCMP_EQUAL("hello", "world");
        LONGS_EQUAL(1, 2);
        CHECK(false);
     }
+    ```
+    
 当然在进行这些测试之前，你还需要这样的一个main函数（通常位于文件AllTests.cpp）：
 
+    ```c++
     int main(int ac, char** av)
     {
        return CommandLineTestRunner::RunAllTests(ac, av);
     }
+    ```
 
 当然使用GNU make 的话，还需要建立一个makefile，这样才能够正常进行构建。
 
@@ -67,6 +75,7 @@ James W. Grenning 的《TDD for Embedded C》一书中支出makefile要遵循的
 
 这是产品代码目录和测试代码目录指定示例：
 
+    ```ini
     SRC_DIRS = \
     	src/test0\
     	src/testmock\
@@ -77,6 +86,7 @@ James W. Grenning 的《TDD for Embedded C》一书中支出makefile要遵循的
     	tests/test0\
     	mocks/test0\
     	tests/testmock\
+    ```
 
 
 

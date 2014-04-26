@@ -28,7 +28,7 @@ travis CI是专门为开源项目打造的持续集成环境，对于托管在gi
 
 4、在你项目的根目录建立一个.travis.yml文件，此文件用于持续集成：
 
-    ```ini
+```ini
     ---
     language: cpp
     compiler: 
@@ -36,7 +36,7 @@ travis CI是专门为开源项目打造的持续集成环境，对于托管在gi
     
     # Change this to your needs
     script:  cd cpputest && make && cd .. && make
-    ```
+```
 
 文件中设定项目的语言，以及编译器，示例为C++项目，使用gcc进行编译。script部分则是寻找到你管理工程所用makefile目录并进行make，travis CI将会为你进行项目构建。更复杂的.travis.yml文件设置方法，请参照[官方文档](http://http://docs.travis-ci.com/user/getting-started/)。
 

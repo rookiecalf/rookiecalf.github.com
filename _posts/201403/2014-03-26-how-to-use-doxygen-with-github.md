@@ -96,7 +96,7 @@ clone仓库到html子目录：
 
 如此，可以看到如此效果的doxygen：
 
-[rookiecalf.github.io/doxygenDemo](rookiecalf.github.io/doxygenDemo)
+[http://softci.com/doxygenDemo](http://softci.com/doxygenDemo)
 
 可以参考的文章和文件：
 

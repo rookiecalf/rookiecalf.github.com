@@ -48,6 +48,7 @@ github pages是支持kramdown包，可以实现Latex公式的显示。
 2、显示效果：
 
 $$
+
 \begin{align*}
   	& \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   	= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -62,5 +63,6 @@ $$
 	      y_n
 	    \end{array} \right)
 \end{align*}
+
 $$
 

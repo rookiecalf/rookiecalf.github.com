@@ -49,8 +49,8 @@ github pages是支持kramdown包，可以实现Latex公式的显示。
 
 $$
 \[\begin{array}{l}
-\sqrt {(a^2) + (b^2)} \mathop {\lim }\limits_{x \to \infty } \sqrt {(b^2) - 4ac} \\
-\sqrt {(b^2) - 4ac} 
+\sqrt {{a^2} + {b^2} \mathop {\lim }\limits_{x \to \infty } \sqrt {{b^2} - 4ac} \\
+\sqrt {{b^2} - 4ac} 
 \end{array}\]
 $$
 
